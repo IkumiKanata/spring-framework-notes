@@ -766,11 +766,20 @@ CREATE TABLE course
 * JDBC is a Java API to connect to a database.
 * Write a lot of SQL queries.
 * More Java code.
+* コネクションを張るコードが必要
+![diagram](https://github.com/IkumiKanata/spring-framework-notes/assets/68002789/82ee9b89-4273-4b31-b7f0-cc64f24f6464)
 
 ## Spring JDBC
+
+
 * Spring JDBC is a framework that provides a simple, lightweight, and fast way to access the database.
 * Write a lot of SQL queries.
 * Lesser Java code.
+* コネクションを張るコード類が必要なくなる
+  
+![diagram](https://github.com/IkumiKanata/spring-framework-notes/assets/68002789/5b748426-0d08-4edd-bef4-aa17fe25eb4a)
+
+JDBCコードとの比較
 
 We will execute the code below using Spring JDBC.
 
