@@ -842,8 +842,11 @@ public class CourseJdbcRepository {
 
 ## JPA (Java Persistence API)
 * JPA is a Java API to connect to a database.
-* Map Entities to Tables.
+* Map Entities to Tables. (@Entity)
 * Make use of EntityManager.
+
+@Entityとは EntityManagerとは
+https://chat.openai.com/share/3ca77b94-fe6f-4e44-aa56-542c01e14748
 
 ```java
 @Repository // Class talks to a database.
