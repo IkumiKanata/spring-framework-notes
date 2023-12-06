@@ -666,7 +666,8 @@ currency-service.username=devusername
 currency-service.key=devkey  
 ```  
   
-### Simply Deployment with Spring Boot Embedded Servers  
+### Simple Deployment with Spring Boot Embedded Servers  
+https://chat.openai.com/share/c19982eb-2ffd-4e37-9366-b5904db63ca7
 * We need to simplify the deployment of our application because we have multiple environments such as development, test, production, etc. *(Make JAR not WAR)*  
   
 Clean Maven Build:  
