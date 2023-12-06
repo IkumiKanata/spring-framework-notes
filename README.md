@@ -722,10 +722,11 @@ management.endpoints.web.exposure.include=beans,health,info
 
 ### Three Layer Architecture
 ![diagram](https://github.com/onsever/spring-framework-notes/blob/main/Three%20Layer%20Architecture.png)
-  
+
 ### Spring Boot vs Spring MVC vs Spring  
-* **Spring Framework:** Dependency Injection and other Spring framework features.  
-  (Spring Modules and Spring Projects)  
+![diagram](https://github.com/IkumiKanata/spring-framework-notes/assets/68002789/5035b1f8-4016-45aa-952c-d892d4b1f1cd)
+https://chat.openai.com/share/14dc9e0b-80a2-4430-a289-a3e96f9236e3
+* **Spring Framework:** It is all about Dependency Injection. @Component, @Autowired, @ComponentScan etc...  
 * **Spring MVC (Spring Module):** Simplify the development of web applications and RESTful web services. (@Controller, @RestController, @RequestMapping)  
 * **Spring Boot (Spring Project):** Quickly build production-ready applications. (Starter projects and autoconfiguration)  
 * Enables non functional requirements (NFRs):  
