@@ -628,7 +628,7 @@ currency-service.key=
   
 #### How does Spring Boot help us manage application configuration? How can we define a property value and use it in the application?  
 * If we want to create a lot of application configurations, we can create a separate class for each configuration called ConfigurationProperties.  
-  
+  https://chat.openai.com/share/8c7b694d-4636-48c3-9d63-a37e7fd75bc9
 ```java  
 import org.springframework.boot.context.properties.ConfigurationProperties;  
 import org.springframework.stereotype.Component;  
