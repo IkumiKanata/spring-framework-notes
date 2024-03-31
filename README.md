@@ -667,6 +667,11 @@ currency-service.key=devkey
 ```  
   
 ### Simple Deployment with Spring Boot Embedded Servers 
+* With spring boot we do not have to explicitly
+use a tomcat server and and the reason why is because springboot has what we call an embedded server so
+it has an embedded Tomcat server so we
+don't have to explicitly put our war
+in Tomcat server 
 https://www.youtube.com/watch?v=vtXJKkqL-14
 https://chat.openai.com/share/c19982eb-2ffd-4e37-9366-b5904db63ca7
 * We need to simplify the deployment of our application because we have multiple environments such as development, test, production, etc. *(Make JAR not WAR)*  
