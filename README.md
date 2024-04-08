@@ -976,6 +976,8 @@ public interface CourseSpringDataJpaRepository extends JpaRepository<Course, Lon
 * Hibernate is an implementation of JPA.
 * Using Hibernate will lock us to Hibernate. We cannot use other implementations of JPA. (Toplink, EclipseLink, OpenJPA)
 
+## Hibernate vs Spring JPA
+* https://stackoverflow.com/questions/23862994/whats-the-difference-between-hibernate-and-spring-data-jpa
 ## Executing Queries using CommandLineRunner
 
 ```java
